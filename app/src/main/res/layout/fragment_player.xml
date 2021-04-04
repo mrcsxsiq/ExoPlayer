@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/player_view"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:auto_show="true"
+        app:shutter_background_color="@color/black"
+        app:controller_layout_id="@layout/player_custom_controller"
+        app:fastforward_increment="10000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rewind_increment="10000"
+        app:surface_type="surface_view"
+        app:use_controller="true" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+

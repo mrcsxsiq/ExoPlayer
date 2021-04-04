@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VOD Demo</string>
+    <string name="player_no_subtitle">Sem legenda</string>
+    <string name="player_playlist">Playlist</string>
+    <string name="player_subtitle">Legendas</string>
+    <string name="player_audios">Áudios</string>
+    <string name="player_dialog_confirm">Ok</string>
+    <string name="player_dialog_cancel">Cancelar</string>
+</resources>
